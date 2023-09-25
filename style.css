@@ -1,0 +1,93 @@
+body{
+    background-color: rgb(220, 245, 238);
+    margin: 0%;
+    font-family: Arial, sans-serif;
+    background-image: url(https://wallpapercave.com/wp/wp8430038.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+    padding: 0;
+}
+.menu{
+    background-color: rgb(119, 122, 135);
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    max-height: 75px;
+}
+    .title{
+    margin-top: 0%;
+    margin-left: 0%;
+    font-size:   60px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 25px;
+   
+}
+
+
+.bar{
+    
+    padding: 22px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: oblique;
+   
+   
+}
+
+a{
+    text-decoration: none;
+    color: beige;
+    
+  
+
+}
+.list{
+    list-style-type: none;
+    display: flex;
+}
+
+.bar2:hover {
+    
+    box-shadow: 0px 5px 5px rgb(29, 29, 34);
+    transition: color 2s ease ;
+    
+    
+}
+
+.begin:hover{
+    color: rgb(27, 204, 249);  
+    text-shadow: 0px 5px 5px rgb(29, 29, 34);
+    transition: color 2s ease ;
+    
+    
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: blanchedalmond;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: beige;
+}
+
+
+.info{
+    max-width: 800px;
+    height: 1000px;
+    margin: 20px auto;
+    padding: 30px;
+    background-color: #312f2f;
+    box-shadow: 10px 10px 20px rgba(241, 241, 241, 0.1);
+    margin-top: 8%;
+    color: beige;
+}
